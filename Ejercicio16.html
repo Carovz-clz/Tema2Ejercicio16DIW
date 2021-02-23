@@ -9,12 +9,114 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <title>Ejercicio 16</title>
 </head>
 
 <body>
+    <nav class="main-header navbar navbar-expand navbar-white encabezado">
+        <div class="container ">
+            <div class="row m-auto">
+                <div class="col-1 navbar-brand ml-2">
+                    <div class="p-1 text-center">
+                        <img src="/imagenes/logo.png" alt="simba" id="imagen" class=" rounded-circle">
+                    </div>                    
+                </div>
+
+                <div class="col-4">
+                    <form class="form-inline p-1">
+                        <div class="row">
+                            <div class="col-10 no-gutters">
+                                <input class="form-control " type="search" placeholder="Buscar" >
+                            </div>
+                            <div class="col-2 no-gutters">
+                                <div class="input-group-append">
+                                    <button class="btn btn-navbar botonNav" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                       
+                    </form>
+                </div>
+
+                <div class="col-3">
+
+                </div>
+
+                <div class="col-3 ">
+                    <ul class="navbar-nav  text-center">        
+                        <li class="nav-item p-1">
+                            <a class="nav-link text-white" href="#"><i class="icon-users icono"></i></a>
+                        </li>
+                        <li class="nav-item p-1 text-white ">
+                            <a class="nav-link text-white" href="#"><i class="icon-bell-alt icono"></i></a>
+                        </li>
+                        <li class="nav-item p-1 text-white  ">
+                            <a class="nav-link text-white" href="#"><i class="icon-chat icono"></i></a>
+                        </li>
+                        <li class="nav-item p-1 text-white  ">
+                            <a class="nav-link text-white" href="#"><img src="/imagenes/simba.png" alt="simba" id="imagen" class="imgNav rounded-circle"></i></a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <aside class="col-md-3 col-12 p-2">
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-users mr-2"></i>Amigos</a>
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-mail mr-2"></i>Mensajes Privados</a>
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-thumbs-up mr-2"></i>Páginas</a>
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-play mr-2"></i>Videos</a>
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-photo mr-2"></i>Fotos</a>
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-music mr-2"></i>Música</a>
+                <a class="nav-link text-dark menuLateral" href="#"><i class="icon-book mr-2"></i>Libros</a>
+                <hr>
+            </aside>
+
+            <main class="col-6">
+                <div class="row mt-3">
+                    <div class="col-auto">
+                        <img src="/imagenes/simba.png" class="fotoForm rounded-circle">
+                    </div>
+
+                    <div class="col">
+                        <form action="">
+                            <div class="form-group">
+                                <textarea name="mensaje" id="mensaje" placeholder="Publicar mensaje" class="form-control"></textarea>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="d-flex flex-row">
+                                    <a class="nav-link " href="#"><i class="icon-photo iconoForm"></i></a>
+                                    <a class="nav-link " href="#"><i class="icon-play iconoForm"></i></a>
+                                    <a class="nav-link " href="#"><i class="icon-music iconoForm"></i></a>
+                                </div>
+
+                                <div class="">
+                                    <button class="btn boton" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                            
+                            <hr>
+                        </form>
+                    </div>
+                    
+                </div>
+            </main>
+
+            <aside class="col">
+
+            </aside>
+        </div>
+
+    </div>
 
     
     

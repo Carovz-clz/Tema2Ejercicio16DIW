@@ -1,0 +1,49 @@
+body{
+    background-color: lightgray;
+}
+.encabezado{
+    background-color: rgb(38, 38, 173);
+}
+
+.botonNav{
+    background-color: white;
+}
+
+.imgNav{
+    width: 22px;
+    height: 22px;
+}
+
+.icono:hover{
+    color: rgba(255, 255, 255, 0.644);
+}
+
+.menuLateral:hover{
+    background-color: rgba(248, 248, 248, 0.74);
+}
+
+.fotoForm{
+    width: 60px;
+    height: 60px;
+}
+
+.iconoForm{
+    color: grey;
+}
+
+.iconoForm:hover{
+    color: rgb(177, 177, 177);
+}
+
+.boton{
+    background-color: rgb(60, 60, 240);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+    border: 1px solid rgb(38, 38, 173);
+
+}
+
+.boton:hover{
+    background-color:  rgb(85, 85, 245);
+}
