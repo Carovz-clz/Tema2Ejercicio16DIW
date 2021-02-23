@@ -84,10 +84,10 @@
             <main class="col-6">
                 <div class="row mt-3">
                     <div class="col-auto">
-                        <img src="/imagenes/simba.png" class="fotoForm rounded-circle">
+                        <a class="nav-link" href="#"><img src="/imagenes/simba.png" class="fotoForm rounded-circle"></a>
                     </div>
 
-                    <div class="col">
+                    <div class="col"><!-- Div formulario-->
                         <form action="">
                             <div class="form-group">
                                 <textarea name="mensaje" id="mensaje" placeholder="Publicar mensaje" class="form-control"></textarea>
@@ -106,8 +106,77 @@
                             
                             <hr>
                         </form>
+                    </div>                    
+                </div> <!--Fin div formulario-->
+
+                <div class="mt-4 media"> <!-- Div publicaciones-->
+                    <div class="col-auto">
+                        <a class="nav-link" href="#"><img src="/imagenes/patamon.png" class="fotoForm rounded-circle"></a>
                     </div>
-                    
+
+                    <div class="col media-body">
+                        <div>                             
+                            <a class="nav-link nombrePublicacion" href="#">Patamón</a>
+                            <div class="comentario">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between mt-2">
+                            <div class="">
+                                <button class="btn boton" type="submit"><a class="nav-link text-white" href="#"><i class="icon-thumbs-up mr-2"></i></a></button>
+                            </div>
+                            <div class="d-flex flex-row pt-2 ">
+                                
+                                <p class="meGustas">15 </p><i class="icon-thumbs-up ml-2 meGustas"></i>
+                            </div>
+                            
+                        </div>
+
+                        <div class="no-gutters row mt-2">   <!-- Comentarios de la publicación-->
+                            <div class="col-10 offset-2">
+                                <div class="row">
+                                    <a class="nav-link" href="#"><img src="/imagenes/simba.png" class="fotoForm rounded-circle"></a>                               
+                                    
+                                    <div  class="media-body">                                        
+                                        <textarea name="mensaje" id="mensaje" placeholder="Comentario" class="form-control"></textarea>                             
+                                        
+                                    </div>
+                                </div>                                    
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="no-gutters row mt-2">   <!-- Comentarios de la publicación-->
+                            <div class="col-10 offset-2">
+                                <div class="row">
+                                    <a class="nav-link" href="#"><img src="/imagenes/simba.png" class="fotoForm rounded-circle"></a>                               
+                                    
+                                    <div  class="media-body">                                        
+                                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>                             
+                                        <a href="#">Me gusta</a>
+                                    </div>
+                                </div>                                    
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="no-gutters row mt-2">   <!-- Comentarios de la publicación-->
+                            <div class="col-10 offset-2">
+                                <div class="row">
+                                    <a class="nav-link" href="#"><img src="/imagenes/patamon.png" class="fotoForm rounded-circle"></a>                               
+                                    
+                                    <div  class="media-body">                                        
+                                        <p> Disparo de aire!!!</p>                             
+                                        <a href="#">Me gusta</a>
+                                    </div>
+                                </div>                                    
+                                <hr>
+                            </div>
+                        </div>
+
+                    </div><!-- Fin cuerpo del media-->
                 </div>
             </main>
 

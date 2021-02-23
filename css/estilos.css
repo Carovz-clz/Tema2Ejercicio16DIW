@@ -37,8 +37,8 @@ body{
 
 .boton{
     background-color: rgb(60, 60, 240);
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     color: white;
     border: 1px solid rgb(38, 38, 173);
 
@@ -46,4 +46,22 @@ body{
 
 .boton:hover{
     background-color:  rgb(85, 85, 245);
+}
+
+.comentario{
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.nombrePublicacion{
+    font-size: larger;
+    color: rgb(60, 60, 240);
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.meGustas{
+    color:  rgb(60, 60, 240);;
 }
