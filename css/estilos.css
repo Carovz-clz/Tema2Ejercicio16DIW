@@ -65,3 +65,18 @@ body{
 .meGustas{
     color:  rgb(60, 60, 240);;
 }
+
+.publicidad img{
+    width: 332px;
+    height: 220px;
+}
+
+.publicidad{
+    width: 100%;
+    overflow: hidden;
+}
+
+.enlacesPubli a{
+    color:  rgb(60, 60, 240);
+    margin-right: 0.3em;
+}
